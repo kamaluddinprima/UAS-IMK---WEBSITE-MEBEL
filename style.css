@@ -1,0 +1,136 @@
+body {
+    margin: 0; 
+    font-family: sans-serif;
+        height: 100vh;
+        background-image: url(bg\ kayu.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+}
+
+.header {
+    margin: 30px; 
+    color: white; 
+    background: blue; 
+    height: 80px;}
+
+.logo {
+    float: left;
+    padding-left: 10px;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar ul{
+    list-style: none; 
+    padding-top: 30px;
+}
+
+.navbar ul li{
+    display: inline; 
+    margin: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none; 
+    color: white; 
+}
+
+.navbar ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.gambar {
+    width: 90%; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    margin:auto;
+}
+
+.gambar .foto img{
+    width: 300px;
+}
+
+.foto {
+    border: 2px solid ghostwhite; 
+    margin:10px; 
+    text-align: center; 
+}
+
+.foto a{
+    border: 1px solid white; 
+    padding:10px; 
+    color: white; 
+    background: blue; 
+    text-decoration: none; 
+    border-radius: 20px; 
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center; 
+    margin: 20px; 
+    color: rgb(255, 255, 255); 
+    background: blue; 
+    height: 70px;
+}
+
+.footer p{
+    padding-top:25px;
+}
+
+.footer a{
+    text-decoration: none; 
+    color: white; 
+}
+
+
+
+form {
+    width:500px;
+    margin: auto;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.search {
+    padding:8px 15px;
+    background:white;
+    border:0px solid #dbdbdb;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #53bd84;
+    background-color:#53bd84;
+    color:#0f0e0e;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+          
+::-webkit-input-placeholder { /* For WebKit browsers */
+    color:    #dd3333;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}
+:-moz-placeholder { /* For Mozilla Firefox 4 to 18 */
+    color:    #dd3333;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}
+::-moz-placeholder { /* For Mozilla Firefox 19+ */
+    color:    #dd3333;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}
+:-ms-input-placeholder { /* For Internet Explorer 10+ */
+    color:    #dd3333;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}	  

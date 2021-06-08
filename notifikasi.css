@@ -1,0 +1,66 @@
+body {
+    margin: 0; 
+    font-family: sans-serif;
+        height: 100vh;
+        background-image: url(bg\ kayu.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+}
+
+.header {
+    margin: 30px; 
+    color: white; 
+    background: blue; 
+    height: 80px;}
+
+.logo {
+    float: left;
+    padding-left: 10px;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar ul{
+    list-style: none; 
+    padding-top: 30px;
+}
+
+.navbar ul li{
+    display: inline; 
+    margin: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none; 
+    color: white; 
+}
+
+.navbar ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+.footer {
+    text-align: center; 
+    margin: 20px; 
+    color: rgb(255, 255, 255); 
+    background: blue; 
+    height: 70px;
+}
+
+.footer p{
+    padding-top:25px;
+}
+
+.footer a{
+    text-decoration: none; 
+    color: white; 
+}
+
+
+
